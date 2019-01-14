@@ -99,7 +99,7 @@ exe 'hi '. 'SpecialKey'.    ' guifg='.  s:blue_light      .' guibg='.  'none'   
 " Variable types
 " --------------------------------
 exe 'hi '. 'Constant'.      ' guifg='.  s:blue_light  .' guibg='.  'none'        .' gui='.  'none'
-exe 'hi '. 'String'.        ' guifg='.  s:green_dark       .' guibg='.  'none'        .' gui='.  'none'
+exe 'hi '. 'String'.        ' guifg='.  s:green_light       .' guibg='.  'none'        .' gui='.  'none'
 exe 'hi '. 'StringDelimiter'.' guifg='. s:blue_light  .' guibg='.  'none'        .' gui='.  'none'
 exe 'hi '. 'Character'.     ' guifg='.  s:green_dark  .' guibg='.  'none'        .' gui='.  'none'
 exe 'hi '. 'Number'.        ' guifg='.  s:blue_light  .' guibg='.  'none'        .' gui='.  'none'
