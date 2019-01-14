@@ -145,10 +145,10 @@ exe 'hi '. 'PreProc'.       ' guifg='.  s:blue_light        .' guibg='.  'none' 
 " --------------------------------
 " Diff
 " --------------------------------
-" exe 'hi '. 'DiffAdd'.       ' guifg='.  'none'        .' guibg='.  'none'        .' gui='.  'none'
-" exe 'hi '. 'DiffChange'.    ' guifg='.  'none'        .' guibg='.  'none'        .' gui='.  'none'
-" exe 'hi '. 'DiffDelete'.    ' guifg='.  'none'        .' guibg='.  'none'        .' gui='.  'none'
-" exe 'hi '. 'DiffText'.      ' guifg='.  'none'        .' guibg='.  'none'        .' gui='.  'none'
+exe 'hi '. 'DiffAdd'.       ' guifg='.  'none'        .' guibg='.  s:black_light        .' gui='.  'none'
+exe 'hi '. 'DiffChange'.    ' guifg='.  'none'        .' guibg='.  s:text_bg        .' gui='.  'none'
+exe 'hi '. 'DiffDelete'.    ' guifg='.  'none'        .' guibg='.  s:red_dark        .' gui='.  'none'
+exe 'hi '. 'DiffText'.      ' guifg='.  'none'        .' guibg='.  s:grey_dark        .' gui='.  'bold'
 
 " --------------------------------
 " C++
