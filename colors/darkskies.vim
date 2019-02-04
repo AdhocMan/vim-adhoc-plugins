@@ -195,9 +195,18 @@ exe 'hi '. 'javaScriptBraces'.' guifg='. s:blue_dark .' guibg='.  'none'        
 exe 'hi '. 'CmakeArguments'. ' guifg='.  s:text_fg    .' guibg='.  'none'        .' gui='.  'none'
 
 "--------------------------------------------------------------------
+" GitGutter settings                                                 |
+"--------------------------------------------------------------------
+exe 'hi '. 'GitGutterAdd'. ' guifg='.  s:green_light    .' guibg='.  'none'        .' gui='.  'none'
+exe 'hi '. 'GitGutterChange'. ' guifg='.  s:orange_light    .' guibg='.  'none'        .' gui='.  'none'
+exe 'hi '. 'GitGutterChange'. ' guifg='.  s:red_light    .' guibg='.  'none'        .' gui='.  'none'
+exe 'hi '. 'GitGutterChange'. ' guifg='.  s:red_light    .' guibg='.  'none'        .' gui='.  'none'
+
+
+"--------------------------------------------------------------------
 " Specific settings                                                 |
 "--------------------------------------------------------------------
 " highlight braces
 autocmd BufReadPost * syn match Braces display '[{}()\[\]]'
-exe 'hi '. 'Braces'.        ' guifg='.  s:blue_dark  .' guibg='.  'none'        .' gui='.  'none'
+exe 'hi '. 'Braces'.        ' guifg='.  s:purple_light  .' guibg='.  'none'        .' gui='.  'none'
 
