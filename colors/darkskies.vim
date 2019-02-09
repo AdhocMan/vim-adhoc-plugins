@@ -193,6 +193,8 @@ exe 'hi '. 'javaScriptBraces'.' guifg='. s:blue_dark .' guibg='.  'none'        
 " CMake settings                                                 |
 "--------------------------------------------------------------------
 exe 'hi '. 'CmakeArguments'. ' guifg='.  s:text_fg    .' guibg='.  'none'        .' gui='.  'none'
+exe 'hi '. 'cmakeVariable'. ' guifg='.  s:purple_light    .' guibg='.  'none'        .' gui='.  'none'
+exe 'hi '. 'cmakeVariableValue'. ' guifg='.  s:orange_light    .' guibg='.  'none'        .' gui='.  'none'
 
 "--------------------------------------------------------------------
 " GitGutter settings                                                 |
