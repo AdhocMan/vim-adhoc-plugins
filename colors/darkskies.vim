@@ -173,6 +173,13 @@ exe 'hi '. 'PmenuThumb'.    ' guifg='.  'none'        .' guibg='.  'none'       
 " exe 'hi '. 'SpellRare'.     ' guifg='.  'none'        .' guibg='.  'none'        .' gui='.  'none'
 
 "--------------------------------------------------------------------
+" Sign settings                                                 |
+"--------------------------------------------------------------------
+exe 'hi '. 'ALEErrorSign'.  ' guifg='.  s:red_light     .' guibg='.  'none'        .' gui='.  'none'
+exe 'hi '. 'ALEWarningSign'.  ' guifg='.  s:orange_dark     .' guibg='.  'none'        .' gui='.  'none'
+exe 'hi '. 'ALEInfo'.  ' guifg='.  s:blue_light     .' guibg='.  'none'        .' gui='.  'none'
+
+"--------------------------------------------------------------------
 " YouCompleteMe settings                                                 |
 "--------------------------------------------------------------------
 exe 'hi '. 'YcmErrorSign'.  ' guifg='.  s:red_light     .' guibg='.  'none'        .' gui='.  'none'
